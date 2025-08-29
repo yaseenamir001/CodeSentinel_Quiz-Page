@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-wrapper">
+      <input type="radio" name="quiz-flow" id="start" checked />
+      <input type="radio" name="quiz-flow" id="q1" />
+      <input type="radio" name="quiz-flow" id="q2" />
+      <input type="radio" name="quiz-flow" id="q3" />
+      <input type="radio" name="quiz-flow" id="done" />
+
+      <div class="start-screen">
+        <h1>Welcome to Quiz</h1>
+        <label for="q1" class="btn">Start Quiz</label>
+      </div>
+
+      <div class="quiz-card q1">
+        <div class="progress">Question 1 of 3</div>
+        <h2>1. What does HTML stand for?</h2>
+        <ul class="options">
+          <li>
+            <input type="radio" id="q1a1" name="q1-opt" /><label for="q1a1"
+              >Hyper Trainer Marking Language</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q1a2" name="q1-opt" class="correct" /><label
+              for="q1a2"
+              >HyperText Markup Language</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q1a3" name="q1-opt" /><label for="q1a3"
+              >HighText Machine Language</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q1a4" name="q1-opt" /><label for="q1a4"
+              >Hyper Transfer Markup Language</label
+            >
+          </li>
+        </ul>
+        <label for="q2" class="btn next">Next</label>
+      </div>
+
+      <div class="quiz-card q2">
+        <div class="progress">Question 2 of 3</div>
+        <h2>2. Which CSS property changes text color?</h2>
+        <ul class="options">
+          <li>
+            <input type="radio" id="q2a1" name="q2-opt" /><label for="q2a1"
+              >font-style</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q2a2" name="q2-opt" /><label for="q2a2"
+              >background-color</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q2a3" name="q2-opt" class="correct" /><label
+              for="q2a3"
+              >color</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q2a4" name="q2-opt" /><label for="q2a4"
+              >text-align</label
+            >
+          </li>
+        </ul>
+        <label for="q3" class="btn next">Next</label>
+      </div>
+
+      <div class="quiz-card q3">
+        <div class="progress">Question 3 of 3</div>
+        <h2>3. Which of the following is NOT a JavaScript data type?</h2>
+        <ul class="options">
+          <li>
+            <input type="radio" id="q3a1" name="q3-opt" /><label for="q3a1"
+              >Boolean</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q3a2" name="q3-opt" /><label for="q3a2"
+              >Number</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q3a3" name="q3-opt" /><label for="q3a3"
+              >String</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="q3a4" name="q3-opt" class="correct" /><label
+              for="q3a4"
+              >Character</label
+            >
+          </li>
+        </ul>
+        <label for="done" class="btn next">Finish</label>
+      </div>
+
+      <div class="quiz-card result">
+        <h2>Quiz Completed 🎉</h2>
+      </div>
+    </div>
+  </body>
+</html>
