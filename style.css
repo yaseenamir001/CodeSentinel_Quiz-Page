@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #121212;
+  background: #0f172a;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -28,7 +28,7 @@ body {
 .start-screen,
 .quiz-card {
   display: none;
-  background: #1f1f1f;
+  background: #1e293b;
   padding: 35px 20px;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
@@ -52,7 +52,7 @@ body {
 }
 
 .btn:hover {
-  background: #60a5fa;
+  background: #2563eb;
   transform: scale(1.05);
 }
 
@@ -80,7 +80,7 @@ body {
 
 .options label {
   display: block;
-  background: #2c2c2c;
+  background: #334155;
   padding: 12px;
   border-radius: 10px;
   cursor: pointer;
@@ -89,7 +89,7 @@ body {
 }
 
 .options label:hover {
-  background: #3b3b3b;
+  background: #475569;
 }
 
 .options input:checked + label {
@@ -110,7 +110,7 @@ body {
 
 .progress {
   font-size: 14px;
-  color: #9ca3af;
+  color: #94a3b8;
   margin-bottom: 15px;
 }
 
